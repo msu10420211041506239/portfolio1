@@ -20,7 +20,7 @@ function App() {
       </header>
 
       <section className="projects" id="projects">
-        <h2>My Work</h2>
+        <h2>My Projects</h2>
         <div className="projects-grid">
           <motion.div className="project-card" whileHover={{ scale: 1.05 }}>
             <img src={Image1} alt="Weather App" />
