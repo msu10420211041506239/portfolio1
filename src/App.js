@@ -19,9 +19,7 @@ function App() {
     A Developer who loves to create
   </motion.p>
   <nav>
-    <motion.a href="#home" className="btn" whileHover={{ scale: 1.1 }} transition={{ duration: 0.3 }}>
-      Home
-    </motion.a>
+   
     <motion.a href="#profile" className="btn" whileHover={{ scale: 1.1 }} transition={{ duration: 0.3 }}>
       Profile
     </motion.a>
@@ -61,19 +59,19 @@ function App() {
   <h2>My Skills</h2>
   <div className="skills-list">
     <div className="skill-item">
-      <FontAwesomeIcon icon={faHtml5} size="3x" color="#E34F26" />
+      <FontAwesomeIcon icon={faHtml5} size="4x" color="#E34F26" />
       <p>HTML</p>
     </div>
     <div className="skill-item">
-      <FontAwesomeIcon icon={faCss3Alt} size="3x" color="#1572B6" />
+      <FontAwesomeIcon icon={faCss3Alt} size="4x" color="#1572B6" />
       <p>CSS</p>
     </div>
     <div className="skill-item">
-      <FontAwesomeIcon icon={faJs} size="3x" color="#F7DF1E" />
+      <FontAwesomeIcon icon={faJs} size="4x" color="#F7DF1E" />
       <p>JavaScript</p>
     </div>
     <div className="skill-item">
-      <FontAwesomeIcon icon={faReact} size="3x" color="#61DAFB" />
+      <FontAwesomeIcon icon={faReact} size="4x" color="#61DAFB" />
       <p>React</p>
     </div>
     <div className="skill-item">
