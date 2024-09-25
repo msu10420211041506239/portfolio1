@@ -12,27 +12,28 @@ function App() {
   return (
     <div className="App">
       <header className="hero">
-        <motion.h1 initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
-          Hello, I Am Suresh
-        </motion.h1>
-        <motion.p initial={{ x: -100 }} animate={{ x: 0 }} transition={{ duration: 1 }}>
-          A Developer who loves to create
-        </motion.p>
-        <nav>
-          <motion.a href="#home" className="btn" whileHover={{ scale: 1.1 }} transition={{ duration: 0.3 }}>
-            Home
-          </motion.a>
-          <motion.a href="#profile" className="btn" whileHover={{ scale: 1.1 }} transition={{ duration: 0.3 }}>
-            Profile
-          </motion.a>
-          <motion.a href="#skills" className="btn" whileHover={{ scale: 1.1 }} transition={{ duration: 0.3 }}>
-            Skills
-          </motion.a>
-          <motion.a href="#projects" className="btn" whileHover={{ scale: 1.1 }} transition={{ duration: 0.3 }}>
-            Explore Projects
-          </motion.a>
-        </nav>
-      </header>
+  <motion.h1 initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
+    Hello, I Am Suresh
+  </motion.h1>
+  <motion.p initial={{ x: -100 }} animate={{ x: 0 }} transition={{ duration: 1 }}>
+    A Developer who loves to create
+  </motion.p>
+  <nav>
+    <motion.a href="#home" className="btn" whileHover={{ scale: 1.1 }} transition={{ duration: 0.3 }}>
+      Home
+    </motion.a>
+    <motion.a href="#profile" className="btn" whileHover={{ scale: 1.1 }} transition={{ duration: 0.3 }}>
+      Profile
+    </motion.a>
+    <motion.a href="#skills" className="btn" whileHover={{ scale: 1.1 }} transition={{ duration: 0.3 }}>
+      Skills
+    </motion.a>
+    <motion.a href="#projects" className="btn" whileHover={{ scale: 1.1 }} transition={{ duration: 0.3 }}>
+      Explore Projects
+    </motion.a>
+  </nav>
+</header>
+
 
       <section className="projects" id="projects">
         <h2>My Projects</h2>
@@ -56,11 +57,6 @@ function App() {
         <p id='xz'>Course:Front end developement</p><br></br>
         <p id='bb'>Experience:Entry level</p><br></br>
       </section>
-
-      <section id="Home">
-        <h2>hi</h2>
-      </section>
-
       <section id="skills">
   <h2>My Skills</h2>
   <div className="skills-container">
