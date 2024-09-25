@@ -59,7 +59,7 @@ function App() {
       </section>
       <section id="skills">
   <h2>My Skills</h2>
-  <div className="skills-container">
+  <div className="skills-list">
     <div className="skill-item">
       <FontAwesomeIcon icon={faHtml5} size="3x" color="#E34F26" />
       <p>HTML</p>
@@ -82,7 +82,7 @@ function App() {
     </div>
     <div className="skill-item">
       <RiTailwindCssFill size={60} color="#38B2AC" />
-      <p>Tailwind</p>
+      <p>Tailwind CSS</p>
     </div>
     <div className="skill-item">
       <FaGithub size={60} color="black" />
@@ -94,6 +94,7 @@ function App() {
     </div>
   </div>
 </section>
+
 
       <footer>
         <h3>
