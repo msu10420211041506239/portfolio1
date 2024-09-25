@@ -62,16 +62,43 @@ function App() {
       </section>
 
       <section id="skills">
-        <h2>My Skills</h2>
-        <p> <FontAwesomeIcon icon={faHtml5} size="3x" color="#E34F26" /></p><br></br><p>Html</p><br></br>
-        <p> <FontAwesomeIcon icon={faCss3Alt} size="3x" color="#1572B6" /></p><br></br><p>Css</p><br></br>
-        <p><FontAwesomeIcon icon={faJs} size='3x' color="#F7DF1E" /></p><br></br><p>Javascript</p><br></br>
-        <p><FontAwesomeIcon icon={faReact} size='3x'  color="#61DAFB"/></p><br></br><p>React</p><br></br>
-        <p id='lm'><FaBootstrap size={80} color="blue"/><br></br><p>Bootstrap</p></p><br></br>
-        <p id='fs'><RiTailwindCssFill size={60} color="#38B2AC" style={{ marginBottom: '10px' }} /><br></br><p>Tailwind</p></p><br></br><br></br>
-        <p id='pj'><FaGithub size={80} color="black" /><br></br><br></br><p>Github</p></p><br></br>
-        <p id='jj'><IoLogoVercel size={60} color="orange" style={{ marginBottom: '10px' }} /><br></br><p>Vercel</p></p>
-        </section>
+  <h2>My Skills</h2>
+  <div className="skills-container">
+    <div className="skill-item">
+      <FontAwesomeIcon icon={faHtml5} size="3x" color="#E34F26" />
+      <p>HTML</p>
+    </div>
+    <div className="skill-item">
+      <FontAwesomeIcon icon={faCss3Alt} size="3x" color="#1572B6" />
+      <p>CSS</p>
+    </div>
+    <div className="skill-item">
+      <FontAwesomeIcon icon={faJs} size="3x" color="#F7DF1E" />
+      <p>JavaScript</p>
+    </div>
+    <div className="skill-item">
+      <FontAwesomeIcon icon={faReact} size="3x" color="#61DAFB" />
+      <p>React</p>
+    </div>
+    <div className="skill-item">
+      <FaBootstrap size={60} color="blue" />
+      <p>Bootstrap</p>
+    </div>
+    <div className="skill-item">
+      <RiTailwindCssFill size={60} color="#38B2AC" />
+      <p>Tailwind</p>
+    </div>
+    <div className="skill-item">
+      <FaGithub size={60} color="black" />
+      <p>GitHub</p>
+    </div>
+    <div className="skill-item">
+      <IoLogoVercel size={60} color="orange" />
+      <p>Vercel</p>
+    </div>
+  </div>
+</section>
+
       <footer>
         <h3>
           <a href="mailto:suresh1317@gmail.com">suresh1317@gmail.com</a><br />6379225860
