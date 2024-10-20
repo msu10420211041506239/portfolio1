@@ -4,6 +4,7 @@ import Image1 from './Images/Image1.png';
 import Image2 from './Images/Image2.png';
 import Image3 from './Images/Image3.png';
 import Image4 from './Images/Image4.png';
+import Image5 from './Images/Image5.png';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { faHtml5,faCss3Alt,faJs,faReact } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -39,24 +40,29 @@ function App() {
         <h2>My Projects</h2>
         <div className="projects-grid">
           <motion.div className="project-card" whileHover={{ scale: 1.05 }}>
-            <img src={Image1} alt="Weather App" />
+            <img src={Image1} alt="Weather App" /><br></br><br></br><br></br>
             <h3>WeatherApp</h3>
             <a href="https://weatherapp-ten-liard.vercel.app/">Show Project</a>
           </motion.div>
           <motion.div className="project-card" whileHover={{ scale: 1.05 }}>
-            <img src={Image2} alt="Quiz App" />
+            <img src={Image2} alt="Quiz App" /><br></br><br></br><br></br><br></br>
             <h3>QuizApp</h3>
             <a href="https://testing-js-8typ.vercel.app/">Show project</a>
           </motion.div>
           <motion.div className="project-card" whileHover={{ scale: 1.05 }}>
-            <img src={Image3} alt="Search Engine" /><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+            <img src={Image3} alt="Search Engine" /><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
             <h3>Search Engine App</h3>
             <a href="https://index-hazel-nu.vercel.app/">Show Project</a>
           </motion.div>
           <motion.div className="project-card" id='kll' whileHover={{ scale: 1.05 }}>
-            <img src={Image4} alt="Todo Lists" /><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+            <img src={Image4} alt="Todo Lists" /><br></br><br></br><br></br><br></br><br></br><br></br>
             <h3>Todo List App</h3>
             <a href="https://try-leys.vercel.app/">Show Project</a>
+          </motion.div>
+          <motion.div className="project-card" id='kll' whileHover={{ scale: 1.05 }}>
+            <img src={Image5} alt="Find who app" /><br></br><br></br><br></br><br></br><br></br>
+            <h3>Find who App</h3>
+            <a href="https://todolist-acaw.vercel.app/">Show Project</a>
           </motion.div>
         </div>
       </section>
